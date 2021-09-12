@@ -1,0 +1,43 @@
+{
+    "name": "crystoline/laravel-resource",
+    "description": "Setup resource controller quickly",
+    "tags": ["laravel", "controller", "resource", "view"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kunle Adekoya",
+            "email": "crystoline@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "laravel/framework": ">=v7.0.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "~3.0",
+        "mockery/mockery": "^0.9.4",
+        "phpunit/phpunit": "~4|~5"
+    },
+    "archive": {
+        "exclude": ["/tests"]
+    },
+    "autoload": {
+        "psr-4": {
+            "Crystoline\\Resource\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+
+        }
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+
+            ]
+        }
+    }
+}
