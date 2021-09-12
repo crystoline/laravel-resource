@@ -265,10 +265,10 @@ trait ResourceTrait
 
     /**
      * @param Request $request
-     * @param Model|null $model_data
+     * @param $model_data
      * @return array
      */
-    public function dependencies(Request $request, Model $model_data = null): array
+    public function dependencies(Request $request,  $model_data = null): array
     {
         return [
             // 'create'  => [ 'user' => new ResourceDependency(User::query(), 'name', 'id') ]
